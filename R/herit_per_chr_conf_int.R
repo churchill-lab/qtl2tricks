@@ -6,6 +6,9 @@
 #' @param nsim integer indicating the number of simulations to perform. Default = 1000.
 #'
 #' @return numeric matrix containing heritabilities estimates for the observed data (in row 1) and the simulated data.
+#' 
+#' @importFrom regress regress
+#' @importFrom mvtnorm rmvnorm
 #' @export
 herit_per_chr_ci = function(data, K, nsim = 1000) {
 

@@ -4,6 +4,8 @@
 #' @param K list containing kinship matrices for each chromosome. NOTE: these should be made using qtl2::calc_kinship(genoprobs, type = "chr")
 #' 
 #' @return numeric matrix containing phenotypes in rows and kinship estimates per chromosome in columns.
+#' 
+#' @importFrom regress regress
 #' @export
 herit_per_chr = function(data, K) {
 

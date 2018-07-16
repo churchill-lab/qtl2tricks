@@ -3,7 +3,8 @@
 #' @param ensids character vector of ensemble gene IDs.
 #' 
 #' @return data.frame containing the Ensembl version and the proportion of matching IDs.
-#'
+#' 
+#' @importFrom AnnotationHub AnnotationHub
 #' @export
 determine_ensembl_version = function(ensids) {
 

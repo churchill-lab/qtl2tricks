@@ -2,6 +2,7 @@
 #' 
 #' @param h2 matrix of heritability simulations with simulations in rows and chromosomes in columns.
 #' 
+#' @import ggplot2
 #' @export
 herit_ci_plot = function(h2, title = "") {
 
