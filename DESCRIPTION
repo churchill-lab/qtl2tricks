@@ -1,6 +1,6 @@
 Package: qtl2tricks
 Title: Tricks for Karl Broman's qtl2.
-Version: 0.0.0.1
+Version: 0.0.0.2
 Authors@R: person("Daniel", "Gatti", email = "dan.gatti@jax.org", role = c("aut", "cre"))
 Description: Tricks for Karl Broman's qtl2.
 Depends: R (>= 3.5.1), qtl2, regress, ggplot2, mvtnorm, AnnotationHub
